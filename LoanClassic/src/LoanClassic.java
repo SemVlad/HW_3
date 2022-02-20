@@ -6,7 +6,7 @@ public class LoanClassic {
         // Вводим значение суммы кредита.
         System.out.print(" Введите сумму кредита: ");
         Scanner scanner = new Scanner(System.in);
-        int sumCredit = scanner.nextInt(); // сумма кредита
+        double sumCredit = scanner.nextDouble(); // сумма кредита
 
         // Вводим количество месяцев кредитования.
         System.out.print("Введите количество месяцев кредитования: ");
