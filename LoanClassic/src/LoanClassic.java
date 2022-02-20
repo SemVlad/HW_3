@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class LoanClassic {
     public static void main(String[] args) {
         // Вводим значение суммы кредита.
-        System.out.print(" Введите сумму кредита: ");
+        System.out.print("Введите сумму кредита: ");
         Scanner scanner = new Scanner(System.in);
         double sumCredit = scanner.nextDouble(); // сумма кредита
 
