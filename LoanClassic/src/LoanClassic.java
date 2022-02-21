@@ -13,7 +13,7 @@ public class LoanClassic {
         int  numOfMonth = scanner.nextInt(); // количество месяцев
 
         // Вводим процентную ставку в относительных единицах.
-        System.out.print("Введите процентную ставку в формате 0.22 : ");
+        System.out.print("Введите процентную ставку в формате 0,22 : ");
         double percentRate = scanner.nextDouble();
 
         // Объявляем переменный, которые будут использоваться для расчетов.
